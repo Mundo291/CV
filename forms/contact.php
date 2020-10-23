@@ -24,14 +24,12 @@
   $contact->subject = $_POST['subject'];
 
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
-  /
   $contact->smtp = array(
     'host' => 'smtp.mailtrap.io',
     'username' => 'e2e4af3db0e645',
     'password' => '3c88efd85014be',
     'port' => '2525'
   );
-  */
 
   $contact->add_message( $_POST['name'], 'From');
   $contact->add_message( $_POST['email'], 'Email');
