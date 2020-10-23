@@ -29,7 +29,7 @@
     'host' => 'smtp.mailtrap.io',
     'username' => 'e2e4af3db0e645',
     'password' => '3c88efd85014be',
-    'port' => '465'
+    'port' => '2525'
   );
   */
 
