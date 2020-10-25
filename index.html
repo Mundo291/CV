@@ -668,13 +668,3 @@
 <script src="https://code.responsivevoice.org/responsivevoice.js?key=u14YCu5X"></script>
 </body>
 </html>
-<script> 
-$(document).on('mouseleave', exitIntent);
-function exitIntent(e){
-   if( e.clientY < 0 ) {
-     responsiveVoice.cancel();
-     setTimeout(responsiveVoice.speak('Good bye , see you again ','UK English Male'),5000);
-   }
-}
-</script>
-
