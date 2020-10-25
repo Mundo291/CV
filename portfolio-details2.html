@@ -195,7 +195,7 @@ $(document).ready(function (){ // when the document has completed loading
    $(document).mouseup(function (e){ // attach the mouseup event for all div and pre tags
       setTimeout(function() { // When clicking on a highlighted area, the value stays highlighted until after the mouseup event, and would therefore stil be captured by getSelection. This micro-timeout solves the issue. 
          responsiveVoice.cancel(); // stop anything currently being spoken
-         responsiveVoice.speak(getSelectionText()"UK English Male"); //speak the text as returned by getSelectionText
+         responsiveVoice.speak(getSelectionText() , "UK English Male"); //speak the text as returned by getSelectionText
       }, 1);
    });
 });
