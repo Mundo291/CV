@@ -668,4 +668,12 @@
 <script src="https://code.responsivevoice.org/responsivevoice.js?key=u14YCu5X"></script>
 </body>
 </html>
-
+<script> 
+$(document).on('mouseleave', exitIntent);
+function exitIntent(e){
+   if( e.clientY < 0 ) {
+     responsiveVoice.cancel();
+     responsiveVoice.speak('Want a free talking avatar for your website, check out bring to life three di speaking characters','Vietnamese Male');
+   }
+}
+</script>
