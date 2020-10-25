@@ -665,7 +665,7 @@
   theme_color="#000000">
       </div>
 </script>
-<script src="https://code.responsivevoice.org/responsivevoice.js?key=u14YCu5X"></script>
+<!-- <script src="https://code.responsivevoice.org/responsivevoice.js?key=u14YCu5X"></script> -->
 </body>
 </html>
 <script> 
@@ -673,7 +673,10 @@ $(document).on('mouseleave', exitIntent);
 function exitIntent(e){
    if( e.clientY < 0 ) {
      responsiveVoice.cancel();
-     responsiveVoice.speak('Good bye , see you again ','UK English Male');
+     setTimeout(responsiveVoice.speak('Good bye , see you again ','UK English Male'),1000);
    }
 }
+</script>
+<script>
+setTimeout(responsiveVoice.speak('Hi, you are connecting to my website. My name is Minh. How can I help you?','UK English Male'),1500);
 </script>
