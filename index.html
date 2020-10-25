@@ -673,10 +673,8 @@ $(document).on('mouseleave', exitIntent);
 function exitIntent(e){
    if( e.clientY < 0 ) {
      responsiveVoice.cancel();
-     setTimeout(responsiveVoice.speak('Good bye , see you again ','UK English Male'),1000);
+     setTimeout(responsiveVoice.speak('Good bye , see you again ','UK English Male'),2000);
    }
 }
 </script>
-<script>
-setTimeout(responsiveVoice.speak('Hi, you are connecting to my website. My name is Minh. How can I help you?','UK English Male'),1500);
-</script>
+
