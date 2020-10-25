@@ -84,8 +84,8 @@
       <div class="container">
 
         <div class="section-title">
-          <h2 href="" >About</h2>
-          <p href="" >Hello,I'm Minh. I'm Designer, Developer, Freelancer and SEOer</p>
+          <h2>About</h2>
+          <p>Hello,I'm Minh. I'm Designer, Developer, Freelancer and SEOer</p>
         </div>
 
         <div class="row">
@@ -666,49 +666,5 @@
       </div>
 </script>
 <script src="https://code.responsivevoice.org/responsivevoice.js?key=u14YCu5X"></script>
- <script> 
-function getSelectionText() {
-    var text = "";
-    if (window.getSelection) {
-        text = window.getSelection().toString();
-    // for Internet Explorer 8 and below. For Blogger, you should use &amp;&amp; instead of &&.
-    } else if (document.selection && document.selection.type != "Control") { 
-        text = document.selection.createRange().text;
-    }
-  
-    return text;
-}
-$(document).ready(function (){ // when the document has completed loading
-   $(document).mouseup(function (e){ // attach the mouseup event for all div and pre tags
-      setTimeout(function() { // When clicking on a highlighted area, the value stays highlighted until after the mouseup event, and would therefore stil be captured by getSelection. This micro-timeout solves the issue. 
-         responsiveVoice.cancel(); // stop anything currently being spoken
-         responsiveVoice.speak(getSelectionText()); //speak the text as returned by getSelectionText
-      }, 1);
-   });
-});
-$('a').keyup(function(e) {
-    console.log('keyup called');
-    var code = e.keyCode || e.which;
-    if (code == '9') {
-    responsiveVoice.cancel();
-     responsiveVoice.speak('Link 2 '+$(':focus').text());
-    }
- });
-$('button').keyup(function(e) {
-    console.log('keyup called');
-    var code = e.keyCode || e.which;
-    if (code == '9') {
-     setTimeout(responsiveVoice.speak($(':focus').text()+' button'),1000);
-    }
- });
-$('textarea').keyup(function(e) {
-    console.log('keyup called');
-    var code = e.keyCode || e.which;
-    if (code == '9') {
-    responsiveVoice.cancel();
-     responsiveVoice.speak('Text Input '+$(':focus').attr('placeholder'));
-    }
- });   
-</script>
 </body>
 </html>
