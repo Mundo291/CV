@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: var(--change-image) top center;
   background-size: cover;
 }
 
@@ -1098,6 +1098,7 @@ section {
   --section-color:#f5f8fd;
   --breadcrumbs-color:#f9f9f9;
   --info-color:#fff;
+  --change-image:url("../img/hero-bg.jpg");
 }
 [data-theme="dark"] {
 
@@ -1121,6 +1122,7 @@ section {
   --section-color:#21252C;
   --breadcrumbs-color:#000000a6;
   --info-color:#131313;
+  --change-image:url("../img/hero-bg2.jpg");
 }
   .moon, .sun{
     position: fixed;
