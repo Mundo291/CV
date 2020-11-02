@@ -709,7 +709,7 @@ section {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #fff !important;
+  background-color: var(--owl-dot-color) !important;
 }
 
 .testimonials .owl-dot.active {
@@ -1099,6 +1099,7 @@ section {
   --breadcrumbs-color:#f9f9f9;
   --info-color:#fff;
   --change-image:url("../img/hero-bg.jpg");
+  --owl-dot-color:#abb3b9ad;
 }
 [data-theme="dark"] {
 
@@ -1123,6 +1124,7 @@ section {
   --breadcrumbs-color:#000000a6;
   --info-color:#131313;
   --change-image:url("../img/hero-bg2.jpg");
+  --owl-dot-color:#fff;
 }
   .moon, .sun{
     position: fixed;
