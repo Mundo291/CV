@@ -1100,6 +1100,7 @@ section {
   --info-color:#fff;
 }
 [data-theme="dark"] {
+
   --font-color: #fff;
   --bg-color: #1B1E24;
   --title-color:#4280FD;
@@ -1123,18 +1124,20 @@ section {
 }
   .moon, .sun{
     position: fixed;
-    bottom: 65px;
-    right: 15px;    
-    width: 45px;
+    bottom: 60px;
+    right: 14px;    
+    width: 42px;
     cursor: pointer;
     transition: .5s all ease-in-out;
     z-index: 9999;
   }
   .sun:hover{
     animation: sun_rotate 1s infinite;
+    transform: scale(1.1);
   }
   .moon:hover{
     transform: scale(1.1);
+    animation: sun_rotate 1s infinite;
   }
   .hide{
     display: none;
