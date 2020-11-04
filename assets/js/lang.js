@@ -191,3 +191,27 @@ $(".translate").click(function() {
     $(this).text(arrLang[lang][$(this).attr("key")]);
   });
 });
+var vie = $('#vi').html();
+var eng = $('#en').html();
+var active=$('.active').html()
+$(document).ready(function(){
+    
+  $('.Text').html(active);
+  $('.Text').click(function(){
+   $('.Text').toggleClass('i-con'); $('.dropdown_list').toggleClass('o-pen')
+  })
+  $('.dropdown_list').click(function(){
+    if($(this).hasClass('active')){
+      return false
+    }else{
+      $(this).addClass('active');
+      $('.dropdown_list').not(this).removeClass('active');
+     var list = $('.active').html();
+      $('.Text').html(list);
+      $('.dropdown_list').removeClass("o-pen");
+      $('.Text').removeClass('i-con');
+    }
+   
+  })
+   
+}) 
