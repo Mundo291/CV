@@ -156,7 +156,7 @@ var arrLang = {
 };
 
 // The default language is English
-var lang = "en";
+var lang = "vi";
 // Check for localStorage support
 if ('localStorage' in window) {
 
