@@ -1,45 +1,28 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Arial", sans-serif; 
   color: var(--font-color);
   background-color: var(--bg-color);
 }
-@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&subset=cyrillic');
-.lg{
-  text-decoration:none;
-  text-transform:uppercase;
-  font-family: 'Oswald', sans-serif;
+c{
+  position:relative;
+  top:50px;
+  left:13px; 
   font-weight:1000;
+  color:#fff;*
 }
 ul{
   padding:0;
 }
-li{
+la{
   list-style:none;
-}
-.dropdown_language{
-  max-width:80px;
 }
 .dropdown_list{
   display:flex;
   align-items:center;
-  margin-bottom:5px;
+  margin-bottom:10px;
   height:0;
   overflow:hidden;
   transition:all 0.5s linear;
-}
-.Text{
-background-image:url('https://image.flaticon.com/icons/svg/25/25243.svg');
-  background-size:10px 10px ;
-  background-position:right;
- background-repeat:no-repeat;
-  transition:all 0.2s linear;
-}
-.Text.i-con{
-  background-image:url('https://image.flaticon.com/icons/svg/25/25678.svg');
-}
-.dropdown_list.o-pen{
-  height:30px;
-  
 }
 .dropdown_language p,
 .dropdown_language a{
@@ -47,14 +30,17 @@ background-image:url('https://image.flaticon.com/icons/svg/25/25243.svg');
   align-items:center;
   color:#474747;
   letter-spacing:1px;
-
+  display: inline-block;
 }
 .dropdown_language p img,
 .dropdown_language a img{
   width:30px;
   height:auto;
-  margin-right:10px;
-  
+  margin-right:0px;
+  display: inline-block;
+  position: relative;
+  bottom: 615px;
+  left:0px;  
 }
 a {
   color: #149ddd;
@@ -207,6 +193,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
+  font-weight: bold;
 }
 
 .nav-menu a i {
