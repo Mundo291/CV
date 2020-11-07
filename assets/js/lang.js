@@ -8,7 +8,7 @@ var arrLang = {
     "PORTFOLIO": "Porfolio",
     "SERVICES": "Services",
     "CONTACT": "Contact",
-    "HELLO":"Hello,I'm a Minh. I'm designer, developer, freelancer.",
+    "HELLO":"Hello,I'm Minh. I'm a designer, developer, freelancer.",
     "UX/UI":"UI/UX Designer & Web Developer.",
     "ABOUT ME":  "Some basics about me",
     "BIRTHDAY": "Birthday : ",
