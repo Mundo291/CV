@@ -13,12 +13,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 500px;
 }
 
 /* .profile-container:hover */
 .profile-container {
-  width: 300px;
+  width: 600px;
   position: relative;
   overflow: hidden;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -61,7 +61,7 @@ body {
   width: 100%;
   height: 100%;
   background: linear-gradient(to right, #2371ae 0%, #bb47d4 100%);
-  transform: skew(30deg) translateX(125%);
+  transform: skew(30deg) translateX(110%);
   opacity: 0.9;
   transition: all 0.6s ease;
 }
@@ -69,30 +69,30 @@ body {
 .profile-wrapper::after{
   content: '';
   position: absolute;
-  top: 0;
+  top:0;
   left: 0;
   width: 100%;
   height: 100%;
   background: linear-gradient(to right, #2371ae 0%, #bb47d4 100%);
-  transform: skew(30deg) translateX(-125%);
+  transform: skew(30deg) translateX(-110%);
   opacity: 0.9;
   transition: all 0.6s ease;
 }
 
 .profile-container:hover .profile-wrapper::after{
-  transform: skew(30deg) translateX(125%);
+  transform: skew(30deg) translateX(110%);
   background: linear-gradient(to right, #bb47d4 0%, #2371ae 100%);
   
 }
 .profile-container:hover .profile-wrapper::before{
-  transform: skew(30deg) translateX(-125%);
+  transform: skew(30deg) translateX(-110%);
   background: linear-gradient(to right, #bb47d4 0%, #2371ae 100%);
 }
 
 /* Profile Card */
 .profile-card {
-  width: 100%;
-  height: 100%;
+  width: 600px;
+  height: 300%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -123,14 +123,13 @@ body {
 .profile-card img {
   display: block;
   margin: 0 auto;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   border-radius: 50%;
   margin: 1rem 0;
-  border: 2px solid transparent;
-  background-image: linear-gradient(white, white), 
-                    linear-gradient(to right, green, gold);
+  border: 5px solid transparent;
+  background-image: linear-gradient(white, white), linear-gradient(to right, #bb47d4, #224fa7);
   background-origin: border-box;
   background-clip: content-box, border-box;
   /* border: 2px solid #1999; */
@@ -163,7 +162,7 @@ body {
 }
 
 .profile-card .icons i:hover {
-  background-image: linear-gradient(to right, #bb47d4 0%, #2371ae 100%);
+  background-image: linear-gradient(to right, #9eff3d 0%, #68f9f9 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -177,9 +176,17 @@ body {
   font-size: 16px;
   font-weight: 500;
   color: #FFFFFF;
-  padding: 8px 20px;
+  padding: 8px 15px;
   margin-top: 1rem;
   background: #2371ae;
-  border-radius: 50px;
+  border-radius: 10px;
   background: linear-gradient(to right, #bb47d4 0%, #2371ae 100%);
+}
+.profile-fa{
+  position: relative;
+  left:40px;
+}
+.profile-in{
+  position: relative;
+  right:40px;
 }
