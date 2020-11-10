@@ -1143,7 +1143,7 @@ section {
   --section-color:#f5f8fd;
   --breadcrumbs-color:#f9f9f9;
   --info-color:#fff;
-  --change-image:url("../img/hero-bg.jpg");
+  --change-image:url("https://i.pinimg.com/564x/54/ad/0b/54ad0b8f55319cb59c2f5ab5ada1e2b5.jpg");
   --owl-dot-color:#abb3b9ad;
 }
 [data-theme="dark"] {
@@ -1168,7 +1168,7 @@ section {
   --section-color:#21252C;
   --breadcrumbs-color:#000000a6;
   --info-color:#131313;
-  --change-image:url("../img/hero-bg2.jpg");
+  --change-image:url("https://i.pinimg.com/564x/17/33/04/173304c68c7e9a1945229a8855bdaa39.jpg");
   --owl-dot-color:#fff;
 }
   .moon, .sun{
