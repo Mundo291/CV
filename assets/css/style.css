@@ -282,8 +282,8 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: var(--change-image) top center;
-  background-size: cover;
+  background: var(--change-image) right;
+  background-size:cover;
 }
 
 #hero:before {
@@ -1176,7 +1176,7 @@ section {
   --section-color:#f5f8fd;
   --breadcrumbs-color:#f9f9f9;
   --info-color:#fff;
-  --change-image:url("https://preview.redd.it/axvru3q0x7x51.jpg?width=960&crop=smart&auto=webp&s=47562f9e1ff4dfca0dea9a02bc30ef53cd21936f");
+  --change-image:url("https://www.xtrafondos.com/wallpapers/mascara-anonimo-de-neon-5407.jpg");
   --owl-dot-color:#abb3b9ad;
 }
 [data-theme="dark"] {
@@ -1201,7 +1201,7 @@ section {
   --section-color:#21252C;
   --breadcrumbs-color:#000000a6;
   --info-color:#131313;
-  --change-image:url("https://preview.redd.it/rmu9h0ikfjf41.png?width=960&crop=smart&auto=webp&s=4afeff40b30a99102942092ed330e1452d2fa439");
+  --change-image:url("https://www.xtrafondos.com/wallpapers/mascara-neon-y-humo-5378.jpg");
   --owl-dot-color:#fff;
 }
   .moon, .sun{
